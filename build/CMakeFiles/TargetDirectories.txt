@@ -1,0 +1,17 @@
+/home/azureuser/pranav/FINAL/attestation_v5/build/CMakeFiles/edit_cache.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/CMakeFiles/rebuild_cache.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/CMakeFiles/runsgxlocal.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/CMakeFiles/runsgxremote.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/CMakeFiles/run.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/CMakeFiles/sign.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/common/CMakeFiles/rebuild_cache.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/common/CMakeFiles/edit_cache.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/common/CMakeFiles/common.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/enclave/CMakeFiles/rebuild_cache.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/enclave/CMakeFiles/edit_cache.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/enclave/CMakeFiles/enclave_signed.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/enclave/CMakeFiles/public_key_a.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/enclave/CMakeFiles/enclave.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/host/CMakeFiles/rebuild_cache.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/host/CMakeFiles/edit_cache.dir
+/home/azureuser/pranav/FINAL/attestation_v5/build/host/CMakeFiles/attestation_host.dir

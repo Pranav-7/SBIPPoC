@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+1019f37e5ae7768b8af23c056735fe81 CMakeFiles/run
+48d9ef9b522183ffc4cf1ab8fe51f6c7 CMakeFiles/runsgxlocal
+e952ade692235e4ee0632c59f7365999 CMakeFiles/runsgxremote
+1019f37e5ae7768b8af23c056735fe81 CMakeFiles/sign
+fc1e45fbc66f4d072858079aeeeaaad8 common/attestation_t.h
+97212eb25cb53228eb9d0cce45d49e6a enclave/CMakeFiles/enclave_signed
+97212eb25cb53228eb9d0cce45d49e6a enclave/CMakeFiles/public_key_a
+aa24271a5aa8f0f69fbe1242123fc6dd enclave/enclave.signed
+f06dee76cf72c92c055a08f84855464c enclave/private_a.pem
+eca3b8ac07dd942ed04e39136e08b177 host/attestation_u.h

@@ -1,0 +1,54 @@
+// Copyright (c) Open Enclave SDK contributors.
+// Licensed under the MIT License.
+
+enclave {
+    from "openenclave/edl/attestation.edl" import *;
+    from "openenclave/edl/syscall.edl" import *;
+    from "platform.edl" import *;
+
+    struct format_settings_t
+    {
+        [size=size] uint8_t* buffer;
+        size_t size;
+    };
+
+    struct pem_key_t
+    {
+        [size=size] uint8_t* buffer;
+        size_t size;
+    };
+
+    struct evidence_t
+    {
+        [size=size] uint8_t* buffer;
+        size_t size;
+    };
+
+    struct message_t
+    {
+        [size=size] uint8_t* data;
+        size_t size;
+    };
+
+    trusted {
+        public int get_enclave_format_settings(
+            [in] const oe_uuid_t* format_id,
+            [out] format_settings_t* format_settings);
+
+        public int get_evidence_with_public_key(
+            [in] const oe_uuid_t* format_id,
+            [in] format_settings_t* format_settings,
+            [out] pem_key_t *pem_key,
+            [out] evidence_t *evidence_buffer);
+        
+        // NEW: Set host's public key for result encryption
+        public int set_host_public_key([in] pem_key_t* host_public_key);
+        
+        // UPDATED: DeFi processing function now returns encrypted results + attestation
+        public int process_encrypted_defi([in] message_t* encrypted_defi_package, [out] message_t* response);
+    };
+
+    //untrusted {
+    //    no untrusted functions in this sample
+    //};
+};
